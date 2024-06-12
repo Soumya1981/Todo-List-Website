@@ -1,0 +1,62 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://source.unsplash.com/random/1600×900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mb-4, .my-4 {
+    margin-bottom: 6rem!important;
+}
+ /* Style all font awesome icons */
+ .card-footer a {
+     text-decoration: none;
+ }
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* github */
+.fa-github {
+  background: #274e6b;
+  color: white;
+}
+/* linkedin  */
+.fa-linkedin {
+  background: #2184cf;
+  color: white;
+}
+.fa:hover{
+    background: #ffffff;
+    color: #6B728E;
+} 
+
+.main_table{
+    background-color:#000000d0;
+}
